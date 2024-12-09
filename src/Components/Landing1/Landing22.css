@@ -1646,8 +1646,7 @@ text
     
     .Logo
     {
-        margin-top: 5.8% !important;
-        
+        margin-top: 5.8% !important;   
     }
 
     .Clouds
@@ -1661,6 +1660,7 @@ text
     {
         height:845vh;
         width:100vw;
+        overflow-x: hidden;
     }
 
     .NavButton1,.NavButton2
