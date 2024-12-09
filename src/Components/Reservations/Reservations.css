@@ -1,0 +1,160 @@
+body
+{
+    background-color:rgb(255, 240, 194);
+}
+
+.ReservationsContain
+{
+position: absolute;
+display: flex;
+/* border:0.1rem solid red; */
+width:93vw;
+height:69vh;
+top:23%;
+left:3.5%;
+justify-content: space-between;
+/* margin: 3%; */
+}
+
+
+
+.ReservationsVideoContain
+{
+/* border:0.1rem solid  green; */
+width:50%;
+border-radius: 3% 3%;
+}
+
+.finalreservations
+{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 3% 3%;
+}
+
+
+.ReservationsFourm
+{
+border:0.1rem solid black;
+width:45%;
+padding-top: 0%;
+margin-top: 0.0%;
+z-index: 5;
+}
+
+input
+{
+    width:50%;
+    height:7%;
+    border-radius: 10px 10px;
+    font-size: 1.3vw;
+    margin-top: 4.3%;
+    text-align: center;
+    background-color:rgb(255, 240, 194);
+
+}
+
+.Submit
+{
+    
+    position:relative;
+    border-radius:20px 20px;
+    padding: 0.75%;
+    font-size: 100%;
+    background-color: rgb(169, 153, 104);
+    border-color: white;
+    color:white;
+    z-index: 6 !important;
+    top:83.0vh;
+    left:-25%;
+}
+
+
+.Table
+{
+    position: absolute;
+    width:15%;
+    top:65%;
+    left:33%;
+    z-index: 3;
+}
+
+@media (min-height:870px)
+{
+input
+{
+    margin-top: 5.5%;
+}
+
+.Submit
+{
+    top:82.7vh;
+}
+}
+
+@media (max-width:394px) 
+{
+    .ReservationsVideoContain
+    {
+        display: none !important; 
+    }
+    .ReservationsFourm
+    {
+        width:100%;
+        border:none;
+        margin-top: -10%;
+    }
+    
+
+    .BoobaTea
+    {
+        width:35%;
+        position: relative;
+        top:-3vh;
+    }
+
+    input
+    {
+    width:80%;
+    height:10% !important;
+    border-radius: 10px 10px;
+    font-size: 4vw;
+    margin-top: 4.3%;
+    margin-left: 2%;
+    text-align: center;
+    background-color:rgb(255, 240, 194);
+    }
+
+    .Dating
+    {
+        width:20% !important;
+    }
+
+    .Table
+    {
+        width:40%;
+        top:75%;
+        left:60%;
+    } 
+    
+    .Submit
+{
+    top:78vh;
+    left:0vw;
+    padding: 2%;
+}
+
+.ReservationsVideoContain
+{
+    display: none;
+}
+
+.finalreservations
+{
+    height:0% !important;
+    width:0% !important;
+    display: none !important;
+}
+
+}

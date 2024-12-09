@@ -1,0 +1,831 @@
+.Results
+{
+   height:100%;
+   width:100%;
+    /* background-color: blanchedalmond; */
+    background-color: rgb(255, 240, 194);
+    /* overflow-y: hidden; */
+}
+
+.IphoneResults
+{
+    display: none;
+}
+
+.ButtonResults
+{
+   display: flex;
+   padding-left: -5%;
+    position: relative;
+    justify-content: space-evenly;
+    width:100vw;
+    margin-top: 0%;
+   
+}
+
+.ButRes1{
+    position:relative;
+    border-radius:20px 20px;
+    padding: 0.75%;
+    font-size: 100%;
+    background-color: rgb(169, 153, 104);
+    border-color: white;
+    color:white;
+    z-index: 4 !important;
+}
+
+
+.Desserts
+{
+    
+}
+
+
+.ResultsContain
+{
+    height: 2030vh;
+    width:100vw;
+    overflow: hidden;
+}
+
+.ResultsScroll
+{
+    position: fixed;
+    z-index: 6 !important;
+    height:8vh;
+    overflow: hidden;
+    margin-top: 8%;
+    margin-left: -0%;
+    /* border: 0.1rem solid red; */
+}
+
+.ResultingPara
+{
+    position: fixed;
+    font-size: 10vw;
+    /* border: 0.1rem red solid; */
+    
+    /* margin-left: 26% !important; */
+    margin-top: 35vh;
+    line-height: 0.8;
+    letter-spacing: -0.2rem;
+    /* margin-top: 17%; */
+}
+
+
+.MenuOptionsResults
+{
+    /* border: 0.1rem solid red; */
+ 
+    display: flex;
+    justify-content: space-evenly;
+    position:relative;
+    top:-1900vh;
+    height:100vh;
+    width: 100vw;
+    
+}
+
+
+.MenuOptionsResults1
+{
+    margin-top: 5%;
+}
+
+
+.Menu1
+{
+    margin-top: -10%;
+}
+
+.Menu2
+{
+    margin-top: 80%;
+    /* position: relative; */
+    /* top:200vh; */
+}
+
+.Menu3
+{
+    margin-top: 115%;
+}
+
+.Menu4
+{
+    margin-top: 80%;
+}
+
+.Menu5
+{
+    margin-top: 70%;
+}
+
+.Menu6
+{
+    margin-top: 60%;
+}
+
+.SVGresults
+{
+    width:100%;
+    display: flex;
+    position: absolute;
+    top:60%;
+}
+
+.SVGResult1
+{
+    width:30%;
+    transform: rotate(18deg) !important;
+}
+
+.SVGResult2
+{
+    width:30%;
+}
+.SVGResult3
+{
+    width:30%;
+}
+
+.SVGResult4
+{
+    width:15%;
+}
+
+.SVGResult5
+{
+    width:15%;
+    transform: scaleX(-1) !important;
+}
+
+.SVGResult6
+{
+    width:30%;
+}
+
+.SVGResult7
+
+{
+    width:40%;
+
+}
+
+
+.SVGResult8
+{   
+    width:45%;
+    transform: rotate(22deg) !important;
+}
+
+.SVGResult9
+{   
+    width:30%;
+   
+}
+.SVGResult10
+{   
+    width:40%;
+    
+}
+
+.SVGResult11
+{
+    width:20%;
+}
+
+.SVGResult12
+{
+    width:20%;
+}
+
+.SVGResult13
+{
+    width:28%;
+}
+.SVGResult14
+{
+    width:30%;
+}
+
+.SVGResult15
+{
+    width:10%;
+}
+
+.SVGResult16
+{
+    width:65%;
+}
+
+.SVGResult17
+{
+    width:30%;
+}
+
+.SVGResult18
+{
+    width:50%;
+}
+
+
+.SVGResult19
+{
+    width:20%;
+}
+
+.SVGResult20
+{
+    width:20%;
+}
+
+.SVGDuke1
+{
+    width:25%;
+}
+
+
+
+@media (max-width:1495px)
+{
+    .Menu1
+    {
+        margin-top: -10%;
+    }
+    
+    .Menu2
+    {
+        margin-top: 80%;
+        /* position: relative; */
+        /* top:200vh; */
+    }
+    
+    .Menu3
+    {
+        margin-top: 115%;
+    }
+    
+    .Menu4
+    {
+        margin-top: 80%;
+    }
+    
+    .Menu5
+    {
+        margin-top: 80%;
+    }
+    
+}
+
+@media (max-width:1480px)
+{
+    .Menu1
+    {
+        margin-top: -10%;
+    }
+    
+    .Menu2
+    {
+        margin-top: 80%;
+        /* position: relative; */
+        /* top:200vh; */
+    }
+    
+    .Menu3
+    {
+        margin-top: 120%;
+    }
+    
+    .Menu4
+    {
+        margin-top: 80%;
+    }
+    
+    .Menu5
+    {
+        margin-top: 80%;
+    }
+    
+}
+
+@media (max-width:1430px)
+{
+    .Menu1
+    {
+        margin-top: -5%;
+    }
+    
+    .Menu2
+    {
+        margin-top: 85%;
+        /* position: relative; */
+        /* top:200vh; */
+    }
+    
+    .Menu3
+    {
+        margin-top: 125%;
+    }
+    
+    .Menu4
+    {
+        margin-top: 85%;
+    }
+    
+    .Menu5
+    {
+        margin-top: 85%;
+    }
+    
+}
+
+@media (max-width:1340px)
+{
+    .Menu1
+    {
+        margin-top: -5%;
+    }
+    
+    .Menu2
+    {
+        margin-top: 90%;
+        /* position: relative; */
+        /* top:200vh; */
+    }
+    
+    .Menu3
+    {
+        margin-top: 130%;
+    }
+    
+    .Menu4
+    {
+        margin-top: 90%;
+    }
+    
+    .Menu5
+    {
+        margin-top: 90%;
+    }
+    
+}
+
+@media (max-width:1280px)
+{
+    .Menu1
+    {
+        margin-top: -5%;
+    }
+    
+    .Menu2
+    {
+        margin-top: 95%;
+        /* position: relative; */
+        /* top:200vh; */
+    }
+    
+    .Menu3
+    {
+        margin-top: 135%;
+    }
+    
+    .Menu4
+    {
+        margin-top: 95%;
+    }
+    
+    .Menu5
+    {
+        margin-top: 95%;
+    }
+    
+}
+
+
+@media (max-width:1215px)
+{
+    .Menu1
+    {
+        margin-top: -5%;
+    }
+    
+    .Menu2
+    {
+        margin-top: 95%;
+        /* position: relative; */
+        /* top:200vh; */
+    }
+    
+    .Menu3
+    {
+        margin-top: 140%;
+    }
+    
+    .Menu4
+    {
+        margin-top: 100%;
+    }
+    
+    .Menu5
+    {
+        margin-top: 100%;
+    }
+    
+}
+
+@media (max-width:1186px)
+{
+    .Menu1
+    {
+        margin-top: -5%;
+    }
+    
+    .Menu2
+    {
+        margin-top: 95%;
+        /* position: relative; */
+        /* top:200vh; */
+    }
+    
+    .Menu3
+    {
+        margin-top: 145%;
+    }
+    
+    .Menu4
+    {
+        margin-top: 105%;
+    }
+    
+    .Menu5
+    {
+        margin-top: 105%;
+    }
+    
+}
+
+@media (max-width:1160px)
+{
+    .Menu1
+    {
+        margin-top: -5%;
+    }
+    
+    .Menu2
+    {
+        margin-top: 95%;
+        /* position: relative; */
+        /* top:200vh; */
+    }
+    
+    .Menu3
+    {
+        margin-top: 150%;
+    }
+    
+    .Menu4
+    {
+        margin-top: 110%;
+    }
+    
+    .Menu5
+    {
+        margin-top: 110%;
+    }
+    
+}
+
+@media (max-width:1140px)
+{
+    .Menu1
+    {
+        margin-top: -5%;
+    }
+    
+    .Menu2
+    {
+        margin-top: 95%;
+        /* position: relative; */
+        /* top:200vh; */
+    }
+    
+    .Menu3
+    {
+        margin-top: 155%;
+    }
+    
+    .Menu4
+    {
+        margin-top: 115%;
+    }
+    
+    .Menu5
+    {
+        margin-top: 115%;
+    }
+    
+}
+
+
+@media (max-width:1120px)
+{
+    .Menu1
+    {
+        margin-top: -5%;
+    }
+    
+    .Menu2
+    {
+        margin-top: 98%;
+        /* position: relative; */
+        /* top:200vh; */
+    }
+    
+    .Menu3
+    {
+        margin-top: 158%;
+    }
+    
+    .Menu4
+    {
+        margin-top: 118%;
+    }
+    
+    .Menu5
+    {
+        margin-top: 118%;
+    }
+    
+}
+
+@media (min-height:750px)
+{
+    .ResultingPara
+    {
+        margin-top: 40vh;
+
+    }
+
+    .MenuOptionsResults
+    {
+        /* border: 0.1rem solid red; */
+     
+        display: flex;
+        justify-content: space-evenly;
+        position:relative;
+        top:-1910vh;
+        height:100vh;
+        width: 100vw;
+        
+    }
+    
+    
+    .MenuOptionsResults1
+    {
+        margin-top: 3%;
+    }
+
+
+    .Mac1,.Mac2,.Mac3,.Mac4
+    {
+        /* position: relative; */
+    }
+
+    .Mac2
+    {
+
+        margin-top: -10%;
+        /* top: 600vh !important; */
+    }
+
+    .SVGResult7
+    {
+        top:480vh !important;
+    }
+    .SVGResult8
+    {
+        top:350vh !important;
+    }
+    .SVGResult9
+    {
+        top:220vh !important;
+    }
+    .SVGResult10
+    {
+        top:530vh !important;
+    }
+
+    .SVGResult11
+    {
+        top: 295vh !important;
+    }
+
+    .SVGResult12
+    {
+        top: 495vh !important;
+    }
+
+    .SVGResult13
+    {
+        top: 955vh !important;
+    }
+
+    .SVGDuke1
+    {
+        top:1060vh !important;
+    }
+
+    .Menu3
+    {
+    margin-top: 105%;
+    }
+
+    .SVGResult14 
+    {
+        top:870vh !important;
+    }
+
+    .SVGResult15
+    {
+        top:890vh !important;
+    } 
+
+    .SVGResult16
+    {
+        top:660vh !important;
+    }
+
+    .SVGResult17
+    {
+        top:610vh !important;
+    }
+
+    .SVGResult18
+    {
+        top:810vh !important;
+    }
+    .SVGResult19
+    {
+        top:975vh !important;
+    }
+
+    .SVGResult20
+    {
+        top:1970vh !important;
+    }
+
+
+    .ResultsScroll
+    {
+        margin-top: 10%;
+    }
+
+
+}
+
+@media (max-width:394px) 
+{
+    .ResultsContain
+    {
+        display: none;
+    }
+
+    .IphoneResults
+    {
+        display: block;
+    }
+
+    .IphoneOptionsBox1,.IphoneOptionsBox2,.IphoneOptionsBox3,.IphoneOptionsBox4,.IphoneOptionsBox5,.IphoneOptionsBox6,.IphoneOptionsBox7,.IphoneOptionsBox8,.IphoneOptionsBox9,.IphoneOptionsBox10
+    {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 3%;
+        position: relative;
+        top:10vh;
+       /* letter-spacing: -1px; */
+    }
+
+    .IphoneOptionsBox10
+    {
+        padding-bottom: 20%;
+    }
+
+    .IphoneDesserts
+    {
+        position: relative;
+        top:13vh;
+        text-align: left;
+        letter-spacing: -2px;
+        /* font-weight: 800; */
+    }
+    .IphoneAppetizers
+    {
+        text-align: right;
+        z-index: 3;
+    }
+    .IphoneShakesAndDrinks
+    {
+        text-align: left;
+    }
+    .IphoneSandwiches
+    {
+        text-align: right;
+    }
+    .IphonePizzas
+    {
+        text-align: left;
+    }
+    .SVGResultIphone1
+    {
+        width:10%;
+        /* border: 0.1rem solid black; */
+        padding-top: 8%;
+        position: relative;
+        left:28%;
+        /* position: absolute; */
+    }
+    .SVGResultIphone2
+    {
+        width:20%;
+        /* border: 0.1rem solid black; */
+        left:8%;
+        position: relative;
+        /* position: absolute; */
+    }
+    .SVGResultIphone3
+    {
+        width:35%;
+        /* border: 0.1rem solid black; */
+       
+        /* position: absolute; */
+    }
+
+    .SVGResultIphone4
+    {
+        width:35%;
+        position: relative;
+        left:35%;
+        top:-3vh;
+        transform: rotate(-12deg);
+    }    
+
+    .SVGResultIphone5
+    {
+        width:30%;
+        transform: rotate(12deg);
+        position: relative;
+        left:20%;
+    }
+
+    .SVGResultIphone6
+    {
+        width:20%;
+        position: relative;
+        left:-10%;
+    }
+
+    .SVGDukeIphone
+    {
+        width:20%;
+        position: relative;
+        left:77%;
+        top:1vh;
+    }
+
+    .SVGResultIphoneSand1
+    {
+        width:20%;
+        position: relative;
+        left:28%;
+        top:2vh;
+        z-index: 5;
+    }
+    .SVGResultIphoneSand2
+    {
+        width:15%;
+        position: relative;
+        top:3vh;
+    }
+    .SVGResultIphoneSand3
+    {
+        width:20%;
+    }
+
+    .SVGResultPizza
+    {
+        width:30%;
+        position: absolute;
+        left:20%;
+        /* top:10%; */
+        top:240%;
+        transform: rotate(-18deg);
+    }
+
+    .IphoneSVG
+    {
+        display: flex;
+        width:100%;
+        position: absolute;    
+     
+    }
+}

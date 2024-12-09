@@ -1,0 +1,229 @@
+
+
+.BigBoi
+{
+    position: relative;
+
+}
+
+
+
+.Text1
+{
+    position: relative;
+    border:0.1rem solid black;
+    display: flex;
+}
+
+.About1
+{
+    position: relative;
+    color:black;
+    font-size: 3rem;
+    width: 55%;
+    text-align: left;
+    padding-left: 3%;
+    border:0.1rem solid black;
+    line-height: 1.1;
+    padding-top:2%;
+    /* margin-top: 0%; */
+}   
+
+
+.AboutTime1
+{
+    position: relative;
+    color:black;
+    border:0.1rem solid black;
+    text-align: left;
+    line-height: 0.05;
+    font-size: 2rem;
+    margin-top:3.1%;
+    margin-left: 0%;
+}
+
+
+.ChefsKiss
+{
+    position: absolute;
+    width:21%;
+    left:68.3%;
+    top:33%;
+    
+    border:0.1rem solid black;
+}
+
+
+.Fishing
+{
+    /* position: absolute; */
+    position: relative;
+    height:75vh;
+    width:93vw;
+   
+    margin-left: 3.3%;
+    margin-top: -5.5%;
+    border-radius: 30px 30px;
+   
+}
+
+
+
+.Fish1
+{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    border-radius: 20px 20px;
+}
+
+
+
+.Logo
+{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    margin-left: 3.3%;
+    font-size: 8rem;
+    position: relative;
+    margin-top: 2%;
+    color: black;
+}
+
+.CityOfStars
+{
+    position: relative;
+    display: flex;
+    
+}
+
+.Stars
+{
+    width:5%;
+    position: absolute;
+    
+}
+
+.Stars1
+{
+    width:10%;
+    position: absolute;
+    left:5%;
+}
+
+.Stars2
+{
+    width:8%;
+    position: absolute;
+    left:15%;
+    top:-5%;
+}
+
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+
+
+.about
+{
+    position: relative;
+    color: black;
+    width:60%;
+    text-align: left;
+    font-size: 3rem;
+    left:4%;
+    top:4rem;
+    line-height: 0.98;
+}  
+
+
+.abouttime
+{
+    position: relative;
+    color: black;
+    text-align: left;
+    font-size: 2rem;
+    line-height: 0.2;
+    width:80%;
+    left:69%;
+    top:-18.6rem;
+}
+
+@media only screen and (max-width:600px)
+{
+
+
+    
+
+
+    .Fishing
+    {
+        /* position: absolute; */
+        width:93%;
+        height:50vh;
+        padding-top:2%;
+    }
+
+    .Logo
+    {
+        font-size: 2.3rem;
+    }
+
+
+    .about
+    {
+    position: relative;
+    color: black;
+    width:90%;
+    text-align: left;
+    font-size: 1rem;
+    left:4%;
+    top:1rem;
+    line-height: 0.98;
+    }  
+
+
+    .Text1
+    {
+        position: relative;
+        border:0.1rem solid black;
+        display: block;
+    }
+
+
+    .About1
+{
+    position: relative;
+    color:black;
+    font-size: 1.5rem;
+    width: 93%;
+    text-align: left;
+    padding-left: 3%;
+    border:0.1rem solid black;
+    line-height: 1.1;
+    padding-top:2%;
+    /* margin-top: 0%; */
+}  
+
+
+
+.AboutTime1
+{
+    position: relative;
+    color:black;
+    border:0.1rem solid black;
+    text-align: left;
+    line-height: 0.05;
+    font-size: 0.5rem;
+    margin-top:4.5%;
+    margin-left: 3.5%;
+}
+ 
+
+
+
+}

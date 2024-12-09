@@ -1,0 +1,1167 @@
+
+
+body
+{
+    
+}
+
+body::-webkit-scrollbar {
+    display: none;
+    
+  }
+
+.container
+{
+    /* border:0.1rem solid black; */
+    position: relative;
+    z-index: 3;
+    top:-100vh;
+    /* background-color: white;
+    background-color: antiquewhite; */
+    /* background-color: black; */
+    background-color: white;
+}
+
+.Nav
+{
+    display: flex;
+    /* border: 0.05rem solid red; */
+    
+}
+
+.Logo
+{
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.2rem;
+    color: red;
+    /* border:0.1rem solid black; */
+    margin-left: 3%;
+}
+
+.Buttons
+{
+    position: relative;
+    top:-12.3vh;
+    left: 37%;
+    width: auto;
+    /* border:0.1rem solid red; */
+
+}
+
+
+
+.BuyButton, .BuyButton1
+{
+    background: none;
+    border: 0.1rem solid red;
+    border-radius: 20px 20px;
+    color:red;
+    font-size: 2rem;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 610;
+    margin-top: -10%;
+}
+
+
+@media (max-width:1425px){
+    .BuyButton, .BuyButton1
+    {
+        font-size: 1.9rem;
+    } 
+
+    .Buttons
+    {
+       
+        top:-13.3vh;
+    }
+}
+
+@media (max-width:1350px){
+    .BuyButton, .BuyButton1
+    {
+        font-size: 1.8rem;
+    } 
+    .Buttons
+    {
+        
+        top:-13.3vh;
+    }
+}
+
+
+@media (max-width:1300px){
+    .BuyButton, .BuyButton1
+    {
+        font-size: 1.7rem;
+    } 
+    .Buttons
+    {
+        
+        top:-13.3vh;
+    }
+}
+
+
+@media (max-width:1220px){
+    .BuyButton, .BuyButton1
+    {
+        font-size: 1.6rem;
+    } 
+    .Buttons
+    {
+        
+        top:-13.3vh;
+    }
+}
+
+@media (max-width:1185px){
+    .BuyButton, .BuyButton1
+    {
+        font-size: 1.5rem;
+    } 
+    .Buttons
+    {
+        
+        top:-13.3vh;
+    }
+}
+
+@media (max-width:1120px){
+    .BuyButton, .BuyButton1
+    {
+        font-size: 1.4rem;
+    } 
+    .Buttons
+    {
+        
+        top:-13.3vh;
+    }
+}
+
+@media (max-width:1050px){
+    .BuyButton, .BuyButton1
+    {
+        font-size: 1.3rem;
+    } 
+    .Buttons
+    {
+        
+        top:-13.3vh;
+    }
+}
+
+.BuyButton1
+{
+    position: relative;
+    left:-6%;
+
+}
+
+
+
+.Section
+{
+    /* border:0.1rem solid yellowgreen; */
+    height:70vh;
+    width:94%;
+    margin-left: 3%;
+    margin-top: -1.5%;
+    border-radius: 20px 20px;
+    overflow: hidden;
+}
+.final
+{
+ height:100%;
+ width:100%;
+ object-fit: cover;   
+}
+.Box
+{
+    /* height:70vh; */
+    /* width:100%; */
+   
+    /* border:0.1rem solid black; */
+   
+    margin:3%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: relative;
+}
+
+
+
+
+.Content1
+{
+    width:60%;
+    line-height: 100%;
+    font-size: 3.6em;
+   
+    /* border: 0.05rem solid red; */
+   
+    color:red;
+    margin-top: 0%;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 610;
+    font-style: normal;
+}
+.Content2
+{
+   
+   
+
+    font-size: 2rem;
+    line-height: 10%;
+    width: 30%;
+    color:red;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 610;
+    font-style: normal;
+    
+}
+
+
+
+
+@media (max-width:1350px)
+{
+.Content1
+{
+font-size:3.2rem ;
+}
+.Content2
+{
+font-size: 1.7rem;
+}
+
+}
+
+@media (max-width:1160px)
+{
+.Content1
+{
+font-size:2.8rem ;
+}
+.Content2
+{
+font-size: 1.5rem;
+}
+
+}
+
+@media (max-width:1030px)
+{
+.Content1
+{
+font-size:2.4rem ;
+}
+.Content2
+{
+font-size: 1.3rem;
+}
+
+}
+
+@media (max-width:900px)
+{
+.Content1
+{
+font-size:2.0rem ;
+}
+.Content2
+{
+font-size: 0.9rem;
+}
+
+}
+
+
+
+
+@media (max-width:740px)
+{
+.Content1
+{
+font-size:1.6rem ;
+}
+.Content2
+{
+font-size: 0.8rem;
+}
+
+}
+
+@media (max-width:610px)
+{
+.Content1
+{
+font-size:1.4rem ;
+}
+.Content2
+{
+font-size: 0.7rem;
+}
+
+}
+
+.Slider
+{
+    /* border: 0.1rem solid red; */
+    height:100vh;
+    width:260vw;
+    /* margin-top:15%; */
+    display: flex;
+    margin-left: -12%;
+    justify-content: space-evenly;
+}
+
+.Potrait
+{
+width:30vw;
+height:100vh;
+}
+
+.Landscape
+{
+width:50vw;
+height:50vh;
+position: relative;
+top:24%;
+}
+
+img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    border-radius: 20px 20px;
+}
+
+
+
+
+.GoodStory
+{
+    height:100vh;
+    width:100vw;
+    /* border:0.1rem solid black; */
+    margin-top:15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.StoryImage
+{
+    height:80vh;
+    width:40vw;
+    /* width:40%; */
+    /* height:80%; */
+    transform: rotate(-6deg);
+    /* border: 0.1rem solid black; */
+    
+}
+
+.Story
+{
+    /* height:100vh; */
+    width:45%;
+    /* border: 0.1rem  solid red; */
+    text-align: left;
+    color:red;
+    /* margin-left: 5%; */
+    position: relative;
+    left:1.5%;
+}
+
+.StoryHeading1
+{
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.25rem;
+    letter-spacing: -3px;
+
+    line-height: 0.8;
+    font-weight: 400;
+    font-style: normal;
+    
+    letter-spacing: -3px;
+    /* border: 0.1rem solid green; */
+    margin-top: 8.5%;
+}
+
+.BigStoryHeading
+{
+    font-size: 4.2rem;
+    letter-spacing: -6px;
+    line-height: 0.8;
+    font-weight: 400;
+    font-style: normal;
+    
+    letter-spacing: -3px;
+    /* transform: scale(0.9,2.1); */
+    /* border:0.3rem solid grey;  */
+    margin-top:1%;   
+    word-spacing: -30px;
+    /* transform: scale(1,2.3); */
+}
+
+.StoryPara
+{
+    font-size: 2rem;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 590;
+    font-style: normal;
+    /* line-height: 1; */
+    /* border:0.1rem solid black; */
+    margin-top: 8%;
+}
+
+@media (max-width:1380px)
+{
+    .StoryHeading1
+    {
+        font-size: 2.3rem; 
+    }
+    .BigStoryHeading
+    {
+        font-size: 3.7rem;
+    }
+    .StoryPara
+    {
+        font-size: 1.9rem;
+    }
+}
+
+@media (max-width:1200px)
+{
+    .StoryHeading1
+    {
+        font-size: 2.1rem; 
+    }
+    .BigStoryHeading
+    {
+        font-size: 3.5rem;
+    }
+    .StoryPara
+    {
+        font-size: 1.8rem;
+    }
+    .StoryImage
+    {
+        height:70vh;
+    }
+}
+
+@media (max-width:1075px)
+{
+    .StoryHeading1
+    {
+        font-size: 1.8rem; 
+    }
+    .BigStoryHeading
+    {
+        font-size: 3.1rem;
+    }
+    .StoryPara
+    {
+        font-size: 1.8rem;
+    }
+    .StoryImage
+    {
+        height:64vh;
+    }
+}
+
+
+@media (max-width:915px)
+{
+    .StoryHeading1
+    {
+        font-size: 1.5rem; 
+    }
+    .BigStoryHeading
+    {
+        font-size: 2.8rem;
+    }
+    .StoryPara
+    {
+        font-size: 1.6rem;
+    }
+    .StoryImage
+    {
+        height:60vh;
+    }
+}
+
+
+@media (max-width:850px)
+{
+    .StoryHeading1
+    {
+        font-size: 1.3rem; 
+    }
+    .BigStoryHeading
+    {
+        font-size: 2.7rem;
+    }
+    .StoryPara
+    {
+        font-size: 1.3rem;
+    }
+    .StoryImage
+    {
+        height:58vh;
+    }
+}
+.Pan
+{
+    /* border: 0.1rem solid black; */
+    width:25%;
+    margin-left: 80%;
+    margin-top:-10%;
+    z-index: 2;
+}
+
+.FoodWalksContainer
+{
+
+/* height: 10%; */
+}
+
+
+.JoyBringer
+{
+    height:100vh;
+    width:100vw;
+    /* border:0.1rem solid red; */
+    display: flex;
+    text-align: left;
+}
+
+.JoyStory
+{
+width:45%;
+height:100%;
+/* border:0.1rem dashed black; */
+margin-left: 3%;
+color:red;
+}
+
+.JoyPicture
+{
+width:45%;
+height:100%;
+/* border:0.05rem dashed grey; */
+margin-left: 2%;
+position: relative;
+left:4%;
+}
+
+.BigStoryHeading1
+{
+margin-top: -3%;
+}
+
+.StoryImage1
+{
+    transform: rotate(6deg);
+}
+
+.Burger
+{
+    transform: rotate(-6deg);
+    width:30%;
+    margin-top: -13%; 
+}
+
+.MenuOptions
+{
+    height:100vh;
+    width:100vw;
+    /* border:0.1rem solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    padding-left: 0.5%;
+    
+}
+
+.MenuIntro
+{
+    height:auto;
+    width:28.5vw;
+    /* border:0.1rem solid red; */
+    margin-left: 35.4%;
+}
+
+.StoryHeading3
+{
+    color:red;
+}
+
+.MenuIntro
+{
+    text-align: left;
+    line-height: 0.8;
+    font-weight: 400;
+    font-style: normal;
+    
+    letter-spacing: -3px;
+    color:red;
+}
+
+.Intro
+{
+    /* display: grid; */
+    margin-top: -5%;
+    font-size: 2.9rem;
+    /* font-size: 3.4rem; */
+    /* transform: scale(1,2.3); */
+}
+
+.IntroPara
+{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 610;
+    font-size: 3.4rem;
+}
+
+@media (max-width:1365px)
+{
+    .Intro
+    {
+        font-size: 2.8rem;    
+    }
+    .IntroPara
+    {
+        font-size: 3.3rem;
+    }
+}
+
+@media (max-width:1300px)
+{
+    .Intro
+    {
+        font-size: 2.6rem;    
+    }
+    .IntroPara
+    {
+        font-size: 3.1rem;
+    }
+}
+
+@media (max-width:1290px)
+{
+    .Intro
+    {
+        font-size: 2.5rem;    
+    }
+    .IntroPara
+    {
+        font-size: 3.0rem;
+        padding-top: 3%;
+    }
+}
+
+@media (max-width:1135px)
+{
+    .Intro
+    {
+        font-size: 2.4rem;    
+    }
+    .IntroPara
+    {
+        font-size: 2.9rem;
+        padding-top: 5%;
+    }
+}
+
+
+@media (max-width:1060px)
+{
+    .Intro
+    {
+        font-size: 2.3rem;    
+    }
+    .IntroPara
+    {
+        font-size: 2.8rem;
+        padding-top:7%;
+    }
+}
+
+@media (max-width:1010px)
+{
+    .Intro
+    {
+        font-size: 2.1rem;    
+    }
+    .IntroPara
+    {
+        font-size: 2.6rem;
+        padding-top:12%;
+    }
+}
+
+@media (max-width:930px)
+{
+    .Intro
+    {
+        font-size: 1.9rem;    
+    }
+    .IntroPara
+    {
+        font-size: 2.4rem;
+        padding-top:16%;
+    }
+}
+
+
+.Sandwich
+{
+    width:80%;
+    margin-top:-55%;
+    margin-left: 45%;
+    /* border:0.1rem solid black; */
+}
+
+@media (max-width:1390px)
+{
+    .Sandwich
+    {
+        margin-left: 50%;
+    }  
+}
+
+@media (max-width:895px)
+{
+    .Sandwich
+    {
+        margin-left: 55%;
+    }  
+}
+
+
+.SvgContainer
+{
+    height:60vh;
+    /* width:100vw; */
+    /* border:0.1rem solid red; */
+    display: flex;
+   position: relative;
+   /* overflow: hidden; */
+   margin-top: 10%;
+}
+
+.SVG1
+{
+    position: relative;
+    width:35%;
+    /* border: 0.1rem solid black; */
+    /* border:0.1rem solid black; */
+}
+
+.SVG2
+{
+    /* position: relative; */
+    /* width:50vw; */
+    width:30%;
+    /* border: 0.1rem solid black; */
+}
+
+.SVG3
+{
+    width:20%;
+    /* border: 0.1rem solid black; */
+
+}
+
+.SVG8
+{
+    
+    /* position: relative; */
+    width:40%;
+
+    /* border: 0.1rem solid black;     */
+
+}
+
+
+
+
+
+
+
+.SVG4
+{
+    /* border:0.1rem solid black; */
+    /* border: 0.1rem solid black;    */
+    width:20%;
+}
+
+.SVG5
+{
+    /* border: 0.1rem solid black;    */
+    width:15%;
+}
+
+.SVG6
+{
+    /* border: 0.1rem solid black;    */
+    width:40%;
+}
+.SVG7
+{
+    /* border: 0.1rem solid black;    */
+    width:10%;
+}
+
+.Contact
+{
+    height:100vh;
+    width:100vw;
+    
+    color:antiquewhite;
+    
+    position: relative;
+}
+
+.ContactSocial
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ContactFill
+{
+    height:100vh;
+    width:100vw;
+    background-color: black;
+    position: fixed;
+    z-index: 3;
+}
+
+.ContactName
+{
+    /* text-align: left; */
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+   
+    font-size: 20rem;
+    /* border:0.1rem solid white; */
+    margin-left: -1%;
+    margin-top: 7%;
+}
+.Pinterest,.Youtube,.Facebook,.Instagram,.Twitter
+{
+    font-size: 3rem;
+    
+}
+@media (max-width:1475px)
+{
+    .ContactName
+    {
+        font-size: 19rem;
+        margin-top: 8%;
+    }
+    .Pinterest,.Youtube,.Facebook,.Instagram,.Twitter
+{
+    font-size: 2.9rem;
+    margin-top: 1%;
+}
+}
+
+@media (max-width:1420px)
+{
+    .ContactName
+    {
+        font-size: 18rem;
+        margin-top: 9%;
+    }
+    .Pinterest,.Youtube,.Facebook,.Instagram,.Twitter
+{
+    font-size: 2.8rem;
+    margin-top: 2%;
+}
+}
+
+@media (max-width:1353px)
+{
+    .ContactName
+    {
+        font-size: 17rem;
+        margin-top: 10%;
+    }
+    .Pinterest,.Youtube,.Facebook,.Instagram,.Twitter
+{
+    font-size: 2.7rem;
+    margin-top: 3%;
+}
+}
+
+@media (max-width:1292px)
+{
+    .ContactName
+    {
+        font-size: 16rem;
+        margin-top: 11%;
+    }
+    .Pinterest,.Youtube,.Facebook,.Instagram,.Twitter
+{
+    font-size: 2.6rem;
+    margin-top: 4%;
+}
+}
+
+@media (max-width:1200px)
+{
+    .ContactName
+    {
+        font-size: 15rem;
+        margin-top: 12%;
+    }
+    .Pinterest,.Youtube,.Facebook,.Instagram,.Twitter
+{
+    font-size: 2.5rem;
+    margin-top: 5%;
+}
+}
+
+
+@media (max-width:1132px)
+{
+    .ContactName
+    {
+        font-size: 14rem;
+        margin-top: 13%;
+    }
+    .Pinterest,.Youtube,.Facebook,.Instagram,.Twitter
+{
+    font-size: 2.4rem;
+    margin-top: 6%;
+}
+}
+
+
+@media (max-width:1050px)
+{
+    .ContactName
+    {
+        font-size: 13rem;
+        margin-top: 14%;
+    }
+    .Pinterest,.Youtube,.Facebook,.Instagram,.Twitter
+{
+    font-size: 2.3rem;
+    margin-top: 7%;
+}
+}
+
+@media (max-width:975px)
+{
+    .ContactName
+    {
+        font-size: 12rem;
+        margin-top: 15%;
+    }
+    .Pinterest,.Youtube,.Facebook,.Instagram,.Twitter
+{
+    font-size: 2.2rem;
+    margin-top: 8%;
+}
+}
+
+
+.FinalSection
+{
+    height: auto;
+    width:100vw;
+    /* border:0.1rem solid red; */
+    color:red;
+    position: relative;
+    
+    /* transform: scale(1,1.3); */
+}
+
+.FinalHeading
+{
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1.5rem;
+    letter-spacing: -5px;
+    font-size: 5rem;
+    line-height: 0.8;
+    text-align: left;
+    /* border:0.1rem dotted black; */
+    margin-left: 3%;
+    width:70%;
+}
+
+
+
+
+.FinalPara
+{
+    /* border: 0.1rem solid black; */
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 610;
+    font-style: normal;
+    font-size: 1.2rem;
+    width:30%;
+    text-align: left;
+    margin-left: 3%;
+    margin-bottom: 3.5%;
+}
+
+@media (max-width:1420px)
+{
+    .FinalHeading
+    {
+        font-size: 4.5rem; 
+    }
+}
+
+@media (max-width:1270px)
+{
+    .FinalHeading
+    {
+        font-size: 4.0rem; 
+    }
+    
+    .FinalPara
+    {
+        font-size: 1.1rem;  
+    }
+}
+
+@media (max-width:1104px)
+{
+    .FinalHeading
+    {
+        font-size: 3.5rem; 
+    }
+    
+    .FinalPara
+    {
+        font-size: 1.1rem;  
+    }
+}
+
+@media (max-width:953px)
+{
+    .FinalHeading
+    {
+        font-size: 3.0rem; 
+    }
+    
+    .FinalPara
+    {
+        font-size: 0.9rem;  
+    }
+}
+
+
+.FinalImageContain
+{
+    height:100vh;
+    width:100vw;
+    width:auto;
+    padding: 3%;
+    /* border:0.1rem solid black; */
+    display: flex;
+    position: relative;
+    margin-top: 0%;
+    /* justify-content: space-evenly; */
+}
+
+.FinalImage1
+{
+    position: absolute;
+    /* top:30%; */
+    height:55vh;
+    width:20vw;
+    object-fit: cover;
+    /* transform: rotate(-6deg) !important; */
+}
+
+.FinalImage2
+{
+
+    position: absolute;
+    /* top:30%;
+    left:20%; */
+    height:40vh;
+    width:20vw;
+    object-fit: cover;
+    /* transform: rotate(6deg); */
+    z-index: 2;
+}
+
+.FinalImage3
+{
+    position: absolute;
+    
+    height:80vh;
+    width:40vw;
+    /* left:30%; */
+    object-fit: cover;
+    z-index: 1;
+}
+
+.FinalImage4
+{
+    position: absolute;
+    /* top:0%;
+    left:0%; */
+    height:40vh;
+    width:25vw;
+    object-fit: cover;
+    z-index: 2;
+    /* transform: rotate(-6deg); */
+}
+
+.FinalImage5
+{   
+    position: absolute;
+    /* top:30%;
+    left:66%; */
+    height:55vh;
+    width:22vw;
+    object-fit: cover;
+    /* transform: rotate(6deg); */
+}
+
+text
+{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 610;
+    font-style: normal;
+    font-size: 2.4rem;
+    color:red;
+    fill:red;
+    text-transform: uppercase;
+    border-bottom: 0.1rem solid red;
+}   
+.circleSvg
+{
+    animation: rotate 10s linear infinite;
+    
+}
+@keyframes rotate
+{
+    to{
+        transform: rotate(360deg);
+    }
+}

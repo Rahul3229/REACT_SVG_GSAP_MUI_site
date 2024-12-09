@@ -1,0 +1,257 @@
+.box
+{
+    height:100%;
+    width:28.5%;
+    border:0.1rem solid black;
+    margin-left: -1.6%;
+    color:black;
+    overflow: hidden;
+    /* padding-left: 3%; */
+    /* margin-left: 10%; */
+}
+
+
+.box .ImgBox{
+    transition: transform 0.5s ease; /* Smooth transition for scaling */
+}   
+
+.box:hover
+{
+    .ImgBox{
+        transform: scale(1.5,1.5);
+    }
+
+    .Recipe
+    {
+        animation: move 20s linear infinite;
+    }
+}
+
+@keyframes move
+{
+    to{
+        transform: translateX(-120%);
+    }
+}
+
+
+.boxHeading
+{
+    width:100%;
+    height:10%;
+    /* border:0.1rem solid red; */
+    text-align: left;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    letter-spacing: -3px;
+    /* padding-left: 4%; */
+    /* margin-top: -3%; */
+    /* margin: 2%; */
+}
+
+.boxRecipe
+{
+    width:100%;
+    height:4%;
+    border-top:0.1rem solid black;
+    border-bottom:0.1rem solid black;
+    overflow: hidden;
+}
+
+.Recipe
+{
+    width:350%;
+    margin-top: 1%;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 610;
+}
+
+.priceBox
+{
+    border-bottom: 0.1rem solid black;
+    width:100%;
+    height:10%;
+    display: flex;
+    text-align: left;
+
+}
+
+.Boxprice1
+{
+    width:50%;
+}
+.Boxprice2
+{
+    width:50%;
+    border-left: 0.1rem solid black;
+}
+
+.BoxImage
+{
+    height:67.5%;
+    width:87%;
+    overflow: hidden;
+    padding: 6.5%;
+}
+
+.ImgBox{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+
+.Price
+{
+    margin-top: 5%;
+    font-size: 2.0rem;
+}
+
+.Food
+{
+    margin-top: 1%;
+    font-size: 2.9rem;
+}
+.Recipe
+{
+    font-size:1.0rem ;
+}
+
+@media (max-width:1515px)
+{
+    .Recipe
+    {
+        width:340%;
+    }
+}
+
+@media (max-width:1440px)
+{
+    .Recipe
+    {
+        font-size:0.9rem ;
+        width:335%;
+    }
+
+}
+
+@media (max-width:1425px)
+{
+    .Price
+    {
+        margin-top: 6.5%;
+    }
+
+}
+
+@media (max-width:1390px)
+{
+    .Food
+    {
+        font-size: 2.7rem; 
+        margin-top: 2.5%;
+    }
+    .Recipe
+    {
+        font-size:0.9rem ;
+        width:293%;
+    }
+    .Price
+    {
+        font-size: 1.9rem;
+    }
+    .boxRecipe
+    {
+        width:120%;
+    }
+}
+
+@media (max-width:1260px)
+{
+    .Food
+    {
+        font-size: 2.6rem; 
+        margin-top: 2.8%;
+    }
+    .Recipe
+    {
+        font-size:0.8rem ;
+        margin-top: 1.3%;
+    }
+    .Price
+    {
+        font-size: 1.8rem;
+        margin-top: 9.6%;
+        
+    }
+    .boxRecipe
+    {
+        width:110%;
+    }
+}
+
+
+
+@media (max-width:1225px)
+{
+    .Price{
+        margin-top: 9%;
+    }
+}
+
+@media (max-width:1210px)
+{
+    .Food
+    {
+        font-size: 2.3rem; 
+        margin-top: 6.5%;
+    }
+    .Recipe
+    {
+        font-size:0.8rem ;
+    }
+    .Price
+    {
+        /* border:0.1rem solid black; */
+        font-size: 1.7rem;
+        margin-top: 8%;
+    }
+    .boxRecipe
+    {
+        width:120%;
+        
+    }
+}
+
+
+@media (max-width:1155px)
+{
+
+    .Price
+    {
+        /* border:0.1rem solid black; */
+        font-size: 1.7rem;
+        margin-top: 8%;
+    }
+}
+
+@media (max-width:1125px)
+{
+    .Food
+    {
+        font-size: 2.45rem; 
+    }
+    .Recipe
+    {
+        font-size:0.8rem ;
+    }
+    .Price
+    {
+        font-size: 1.6rem;
+    }
+    .boxRecipe
+    {
+        width:130%;
+    }
+}
