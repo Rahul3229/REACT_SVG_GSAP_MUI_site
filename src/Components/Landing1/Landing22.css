@@ -1660,7 +1660,6 @@ text
     {
         height:845vh;
         width:100vw;
-        overflow-x: hidden;
     }
 
     .NavButton1,.NavButton2
@@ -2239,7 +2238,8 @@ margin-top: 7%;
 .ContactFill
 {
     height:100vh;
-    width:100vw;
+    width:100vw !important;
+    overflow-x: hidden !important;
     background-color: black;
     position: fixed;
     z-index: 3;

@@ -19,6 +19,7 @@
         left:120%;
         top:3vh;
         border:none;
+        
     }
 
     .Start:hover
@@ -40,6 +41,7 @@
         margin-top: -2%;
         position: absolute;
         z-index: 10 !important;
+        border: 0.05rem solid red;
     }
 
     .Replicants
