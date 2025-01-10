@@ -167,24 +167,11 @@ export default function Landing2()
 
        
        
-        {/* <div className="Nav">
-        <h1 className="Logo StoryHeading1">CAB<span>ALAR</span></h1>
-        
-            <button className="NavButton1">
-            Menu
-            </button>
-            <button className="NavButton2">
-            Reservations
-            </button>
-        
-        </div> */}
 
  
 
         <Video srcVideo={Final}/>
-        {/* <div className="Section">
-        <video src={Final} className="final" autoPlay loop muted></video>
-        </div> */}
+
 
 
         <div className="Box">
@@ -193,7 +180,7 @@ export default function Landing2()
         <p>Cabalar is the happiest place on earth, or at least in Lancaster City. As a combination butchery meets burger spot with a real happy bar, we pair our mouthwatering burgers, sandwiches, fries, and sides with some mighty tasty bevvies, all made with the best ingredients!</p>
         </div>
         <div className="Content1Big" style={{
-    clipPath: `circle(10.0% at ${mousePosition.x}px ${mousePosition.y}px)`,transistion:"1"}}>
+        clipPath: `circle(10.0% at ${mousePosition.x}px ${mousePosition.y}px)`,transistion:"1"}}>
         <p>Cabalar is the happiest place on earth, or at least in Lancaster City. As a combination butchery meets burger spot with a real happy bar, we pair our mouthwatering burgers, sandwiches, fries, and sides with some mighty tasty bevvies, all made with the best ingredients!</p>            
         </div>
         
@@ -410,7 +397,12 @@ export default function Landing2()
         </div>
         </div>
 
-        
+
+        <div className="abc">
+            
+        </div>  
+       
+
         </>
     )
 }

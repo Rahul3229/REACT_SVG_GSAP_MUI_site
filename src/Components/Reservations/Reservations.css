@@ -18,7 +18,7 @@ justify-content: space-between;
 
 .BoobaTea
 {
-    width:20%;
+    width:20% !important;
 }
 
 .ReservationsVideoContain
@@ -150,14 +150,17 @@ input
 
 .ReservationsVideoContain
 {
-    display: none;
+
+width:0%;
+display: none !important;
 }
 
 .finalreservations
 {
+    width: 0% !important;
     height:0% !important;
-    width:0% !important;
     display: none !important;
 }
+
 
 }

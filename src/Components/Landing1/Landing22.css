@@ -7,9 +7,14 @@ body
 
 body::-webkit-scrollbar {
     display: none;
-
   }
 
+
+
+
+
+
+  
 .container
 {
     position: relative;
@@ -1639,11 +1644,298 @@ text
 }
 
 
-@media (max-width:394px) 
+
+
+@media  (min-height:780px)
 {
 
 
+    .Section
+    {
+        /* border:0.1rem solid yellowgreen; */
+        height:75vh;
+        width:94%;
+        margin-left: 3%;
+        margin-top: -0.5%;
+        border-radius: 20px 20px;
+        overflow: hidden;
+    } 
+
+
+
+    .StoryHeading1
+{
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.0rem;
+    letter-spacing: -3px;
+
+    line-height: 0.8;
+    font-weight: 400;
+    font-style: normal;
     
+    letter-spacing: -3px;
+
+
+
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1.5rem;
+    letter-spacing: -5px;
+    font-size: 5.3rem;
+    line-height: 0.8;
+
+    
+
+    /* border: 0.1rem solid green; */
+    margin-top: 8.5%;
+}
+
+.BigStoryHeading
+{
+    font-size: 3rem;
+    color:black;
+    line-height: 0.2;
+    font-weight: 400; 
+    font-style: normal;
+    
+    letter-spacing: -3px;
+    /* transform: scale(0.9,2.1); */
+    /* border:0.3rem solid grey;  */
+
+
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1.5rem;
+    letter-spacing: -5px;
+    font-size: 5.3rem;
+    line-height: 0.8;
+
+    color:white;
+
+    margin-top:-8.5%;   
+    word-spacing: -30px;
+    /* transform: scale(1,2.3); */
+}
+
+
+.BigStoryHeading1
+{
+margin-top: -7.6%;
+}
+
+.BigStoryHeading2
+{
+    margin-top: -7.6%;
+    /* word-spacing: -0.0001px; */
+}
+
+
+.StoryImage
+{
+    height:65vh;
+    width:40vw;
+    transform: rotate(-6deg);
+    margin-top: -8%;
+    
+}
+
+.Pan
+{
+    /* border: 0.1rem solid black; */
+    width:25%;
+    margin-left: 80%;
+    margin-top:-35%;
+    z-index: 2;
+}
+
+.Burger
+{
+    transform: rotate(-6deg);
+    width:30%;
+    margin-top: -56%; 
+    /* display: none; */
+}
+
+.FinalImage1
+{
+    position: absolute;
+    top:-90vh !important;
+    /* top:30%; */
+    left:4.5vw;
+    height:55vh;
+    width:20vw;
+    object-fit: cover;
+    /* transform: rotate(-6deg) !important; */
+}
+
+.FinalImage5
+{   
+    position: absolute;
+    top:90vh !important;
+    /* top:30%;
+    left:66%; */
+    height:65vh;
+    left: 71.5% !important;;
+    width:24vw;
+    object-fit: cover;
+    /* transform: rotate(6deg); */
+}
+
+
+.ContactName
+{
+    /* text-align: left; */
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+   
+    /* font-size: 20rem; */
+
+    font-size: 21vw;
+
+    /* border:0.1rem solid white; */
+    margin-left: -1%;
+    margin-top: 14%;
+    /* border:0.1rem solid white; */
+}
+
+.JoyBringer
+{
+    height:100vh;
+    width:100vw;
+    /* border:0.1rem solid red; */
+    display: flex;
+    text-align: left;
+    margin-top: -12%;
+}
+
+.GoodStory
+{
+    height:100vh;
+    width:100vw;
+    /* border:0.1rem solid black; */
+    margin-top:20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.MenuIntro
+{
+    height:auto;
+    width:28.5vw;
+    /* border:0.1rem solid red; */
+    margin-left: 35.4%;
+    
+    margin-top: -1%;
+}
+
+.MenuIntro2
+{
+    margin-top: -12%;
+}
+
+
+.Sandwich
+{
+    width:80%;
+    margin-top:-55%;
+    margin-left: 42%;
+    position: relative;
+    top:77vh !important;
+    /* border:0.1rem solid black; */
+}
+
+.Circluar
+{
+    position: relative;
+    top:270vh !important;
+}
+
+
+.SVG5
+{
+    /* border: 0.1rem solid black;    */
+    width:15%;
+    margin-top: -4%;
+}
+
+.SVG2
+{
+    margin-top: -27%;
+}
+
+.SVG8
+{
+    margin-top: -14%;
+}
+
+.SVG1
+{
+    margin-top:10%;
+}
+
+.SVG4,.SVG6,.SVG10
+{
+    margin-top: -20%;
+}
+
+.SvgContainer1
+{
+    margin-top: 5%;
+}
+
+.FinalSection
+{
+    margin-top: -20%;
+}
+
+.FinalImage3
+{
+    margin-top: -30%;
+}
+
+.Logo
+{
+    margin-left: 5.5%;
+    color:black;
+    margin-top:7.6% !important;   
+    word-spacing: -30px; 
+}
+
+
+
+.NavButton1,.NavButton2
+{
+    margin-top: 1.0%;
+}
+
+.Nav
+{
+    position: absolute;
+    top:0.2vh;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width:394px) 
+{
+    .Content1Big
+{
+    display: none !important;
+}
+
     .Logo
     {
         margin-top: 5.8% !important;   
@@ -1690,8 +1982,6 @@ text
     .BigStoryHeading
     {
         font-size: 4.4rem;
-        
-
     }
     .StoryPara
     {
@@ -2315,12 +2605,6 @@ margin-top: 7%;
 
 
 
-/* .SVG17
-{
-    width:35%;
-    position: absolute;
-    position: relative;
-} */
 
 .SVG18
 {
@@ -2347,287 +2631,5 @@ margin-top: 7%;
     background: none;
 }
 
-body
-{
-    /* overflow-x: hidden; */
-    
-}
-}
-
-@media  (min-height:780px)
-{
-
-
-    .Section
-    {
-        /* border:0.1rem solid yellowgreen; */
-        height:75vh;
-        width:94%;
-        margin-left: 3%;
-        margin-top: -0.5%;
-        border-radius: 20px 20px;
-        overflow: hidden;
-    } 
-
-
-
-    .StoryHeading1
-{
-    font-family: "Rubik Mono One", monospace;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2.0rem;
-    letter-spacing: -3px;
-
-    line-height: 0.8;
-    font-weight: 400;
-    font-style: normal;
-    
-    letter-spacing: -3px;
-
-
-
-    font-weight: 900;
-    font-style: normal;
-    font-size: 1.5rem;
-    letter-spacing: -5px;
-    font-size: 5.3rem;
-    line-height: 0.8;
-
-    
-
-    /* border: 0.1rem solid green; */
-    margin-top: 8.5%;
-}
-
-.BigStoryHeading
-{
-    font-size: 3rem;
-    color:black;
-    line-height: 0.2;
-    font-weight: 400; 
-    font-style: normal;
-    
-    letter-spacing: -3px;
-    /* transform: scale(0.9,2.1); */
-    /* border:0.3rem solid grey;  */
-
-
-    font-weight: 900;
-    font-style: normal;
-    font-size: 1.5rem;
-    letter-spacing: -5px;
-    font-size: 5.3rem;
-    line-height: 0.8;
-
-    color:white;
-
-    margin-top:-8.5%;   
-    word-spacing: -30px;
-    /* transform: scale(1,2.3); */
-}
-
-
-.BigStoryHeading1
-{
-margin-top: -7.6%;
-}
-
-.BigStoryHeading2
-{
-    margin-top: -7.6%;
-    /* word-spacing: -0.0001px; */
-}
-
-
-.StoryImage
-{
-    height:65vh;
-    width:40vw;
-    transform: rotate(-6deg);
-    margin-top: -8%;
-    
-}
-
-.Pan
-{
-    /* border: 0.1rem solid black; */
-    width:25%;
-    margin-left: 80%;
-    margin-top:-35%;
-    z-index: 2;
-}
-
-.Burger
-{
-    transform: rotate(-6deg);
-    width:30%;
-    margin-top: -56%; 
-    /* display: none; */
-}
-
-.FinalImage1
-{
-    position: absolute;
-    top:-90vh !important;
-    /* top:30%; */
-    left:4.5vw;
-    height:55vh;
-    width:20vw;
-    object-fit: cover;
-    /* transform: rotate(-6deg) !important; */
-}
-
-.FinalImage5
-{   
-    position: absolute;
-    top:90vh !important;
-    /* top:30%;
-    left:66%; */
-    height:65vh;
-    left: 71.5% !important;;
-    width:24vw;
-    object-fit: cover;
-    /* transform: rotate(6deg); */
-}
-
-
-.ContactName
-{
-    /* text-align: left; */
-    font-weight: 700;
-    font-style: normal;
-    font-size: 1.5rem;
-   
-    /* font-size: 20rem; */
-
-    font-size: 21vw;
-
-    /* border:0.1rem solid white; */
-    margin-left: -1%;
-    margin-top: 14%;
-    /* border:0.1rem solid white; */
-}
-
-.JoyBringer
-{
-    height:100vh;
-    width:100vw;
-    /* border:0.1rem solid red; */
-    display: flex;
-    text-align: left;
-    margin-top: -12%;
-}
-
-.GoodStory
-{
-    height:100vh;
-    width:100vw;
-    /* border:0.1rem solid black; */
-    margin-top:20%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-
-.MenuIntro
-{
-    height:auto;
-    width:28.5vw;
-    /* border:0.1rem solid red; */
-    margin-left: 35.4%;
-    
-    margin-top: -1%;
-}
-
-.MenuIntro2
-{
-    margin-top: -12%;
-}
-
-
-.Sandwich
-{
-    width:80%;
-    margin-top:-55%;
-    margin-left: 42%;
-    position: relative;
-    top:77vh !important;
-    /* border:0.1rem solid black; */
-}
-
-.Circluar
-{
-    position: relative;
-    top:270vh !important;
-}
-
-
-.SVG5
-{
-    /* border: 0.1rem solid black;    */
-    width:15%;
-    margin-top: -4%;
-}
-
-.SVG2
-{
-    margin-top: -27%;
-}
-
-.SVG8
-{
-    margin-top: -14%;
-}
-
-.SVG1
-{
-    margin-top:10%;
-}
-
-.SVG4,.SVG6,.SVG10
-{
-    margin-top: -20%;
-}
-
-.SvgContainer1
-{
-    margin-top: 5%;
-}
-
-.FinalSection
-{
-    margin-top: -20%;
-}
-
-.FinalImage3
-{
-    margin-top: -30%;
-}
-
-.Logo
-{
-    margin-left: 5.5%;
-    color:black;
-    margin-top:7.6% !important;   
-    word-spacing: -30px; 
-}
-
-
-
-.NavButton1,.NavButton2
-{
-    margin-top: 1.0%;
-}
-
-.Nav
-{
-    position: absolute;
-    top:0.2vh;
-}
 
 }
-
-
-
-
